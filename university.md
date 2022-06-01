@@ -5,13 +5,13 @@
 ### Departments
 
 id:         PK NOTNULL UNIQUE INDEX AI
-name:
+name:       VARCHAR(50)
 
 ### Degree_programs
 
-id:         PK NOTNULL UNIQUE INDEX AI
-code:
-name:
+id:                     PK NOTNULL UNIQUE INDEX AI
+code:                   VARCHAR(10)
+name:                   VARCHAR(50)
 description:
 degree_level:
 location:
